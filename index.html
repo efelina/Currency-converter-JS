@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt 2 JS</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="coin.svg" alt="pic of dollar" class="logo" id="logo">
+        <div class="name">Przelicznik walut</div>
+    </header>
+    <main>
+        <form class="currencyForm" id="currencyForm">
+            <input class="inputCurrency" id="inputCurrency" placeholder="Kwota" type="number">
+            <select class="mdb-select md-form selectCurrency" searchable= "Search here..">            
+                <option value="1" id="euro">EUR</option>
+                <option value="2" id="usd">USD</option>
+                <option value="3" id ="chf">CHF</option>
+            </select>
+            <button type="submit" class="btn btn-success">Przelicz</button>            
+        </form>
+        <span class="currencySentence">TO</span>
+        <div class="amount" id="amount"></div>        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>

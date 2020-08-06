@@ -1,0 +1,53 @@
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 300px; 
+    margin: 100px 50px;  
+}
+.logo {
+    width:200px;
+    height:200px;    
+}
+
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    border: 2px black solid;
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.inputCurrency {
+    width:350px;
+}
+.selectCurrency {
+    width:200px;    
+}
+
+.amount {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logoChange {
+    width:200px;
+    height:200px;
+    animation: rotation 3s linear 1;   
+    
+}
+@keyframes rotation {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
