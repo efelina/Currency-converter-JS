@@ -1,4 +1,3 @@
-
 header{
     display: flex;
     justify-content: space-around;
@@ -6,11 +5,11 @@ header{
     height: 300px; 
     margin: 100px 50px;  
 }
+
 .logo {
     width:200px;
     height:200px;    
 }
-
 
 .name {
     display: flex;
@@ -27,11 +26,12 @@ main {
     justify-content: space-around;
     align-items: center;
     height: 300px;
-}
+} 
 
 .inputCurrency {
     width:350px;
 }
+
 .selectCurrency {
     width:200px;    
 }
@@ -44,9 +44,9 @@ main {
 .logoChange {
     width:200px;
     height:200px;
-    animation: rotation 3s linear 1;   
-    
+    animation: rotation 3s linear 1;      
 }
+
 @keyframes rotation {
     0% {transform: rotate(0deg)}
     100% {transform: rotate(360deg)}
